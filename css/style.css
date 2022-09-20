@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+.title-h-one{
+    font-family: "Roboto";
+    color: blue;
+}
+.title-h-two,
+.title-h-three
+{
+    font-family: "Lato";
+    font-weight: 700;
+    color: brown;
+}
+p{
+    font-family: "Lato";
+    font-weight: 500;
+}
+li{
+    font-family: "Larsseit";
+    font-weight: 400;
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.aqua p{
+    color: aqua;
+}
+.darkm .darkmagenta{
+    color: darkmagenta;
+}
+.first-lvl > p{
+    color: chartreuse;
+}
+.lvlbottom ~ p{
+    color: coral;
+}
+.all + p{
+    color: deeppink;
+}
+.red.blue{
+    color: darkblue;
+}
+span{
+    color: lightsalmon;
+}
